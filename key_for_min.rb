@@ -30,5 +30,5 @@ def key_for_min_value(hash)
   array_of_values = hash.collect do |k, v|
     v 
   end
-  
+  sorted_array = array_of_values.sort
 end
