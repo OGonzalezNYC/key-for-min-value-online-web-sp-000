@@ -31,4 +31,5 @@ def key_for_min_value(hash)
     v 
   end
   sorted_array = array_of_values.sort
+  sorted_array.first.key
 end
