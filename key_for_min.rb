@@ -28,6 +28,7 @@
 
 def key_for_min_value(hash)
   array_of_values = []
+  smallest_number = nil
   if hash = {} 
     return nil
   else 
