@@ -46,3 +46,15 @@
 #   #hash.index(smallest_number)
 #   #sorted_array.first.key
 # end
+
+def key_for_min_value(hash)
+  lowest_value_key = nil
+  lowest_value = nil
+  hash.each do |k, v|
+    if lowest_value == nil || v < lowest_value
+      lowest_value = v
+      lowest_value_key = k
+    end
+  end
+  lowest_key
+end
