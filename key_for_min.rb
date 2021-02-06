@@ -27,6 +27,7 @@
 # end
 
 def key_for_min_value(hash)
+  array_of_values = []
   if hash = {} 
     return nil
   else 
@@ -35,6 +36,7 @@ def key_for_min_value(hash)
     end
   end
   smallest_number = array_of_values[0]
+  
   sorted_array = array_of_values.sort
   hash.index(sorted_array[0])
   #sorted_array.first.key
