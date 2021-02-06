@@ -38,7 +38,7 @@ def key_for_min_value(hash)
   smallest_number = array_of_values[0]
   array_of_values.each do |e|
     if v < smallest_number
-      
+      smallest_number = v
     end
   end
   sorted_array = array_of_values.sort
