@@ -27,7 +27,8 @@
 # end
 
 def key_for_min_value(hash)
-  hash.collect do |k, v|
-    
+  array_of_values = hash.collect do |k, v|
+    v 
   end
+  
 end
