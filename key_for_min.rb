@@ -27,8 +27,12 @@
 # end
 
 def key_for_min_value(hash)
-  array_of_values = hash.collect do |k, v|
-    v 
+  if hash = {} 
+    nil
+  else 
+    array_of_values = hash.collect do |k, v|
+      v 
+    end
   end
   sorted_array = array_of_values.sort
   sorted_array.first.key
