@@ -59,4 +59,6 @@ def key_for_min_value(hash)
   lowest_key
 end
 
-def ke
+def key_for_min_value(hash)
+  lowest_key = nil 
+  lowest_value = nil
