@@ -42,6 +42,7 @@ def key_for_min_value(hash)
       smallest_number = v
     end
   end
-  hash.index(smallest_number)
+  smallest_number
+  #hash.index(smallest_number)
   #sorted_array.first.key
 end
