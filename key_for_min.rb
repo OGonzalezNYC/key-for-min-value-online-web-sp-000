@@ -26,23 +26,23 @@
 #   lowest_key
 # end
 
-def key_for_min_value(hash)
-  array_of_values = []
-  smallest_number = nil
-  if hash = {} 
-    return nil
-  else 
-    array_of_values = hash.collect do |k, v|
-      v 
-    end
-  end
-  smallest_number = array_of_values[0]
-  array_of_values.each do |e|
-    if v < smallest_number
-      smallest_number = v
-    end
-  end
-  smallest_number
-  #hash.index(smallest_number)
-  #sorted_array.first.key
-end
+# def key_for_min_value(hash)
+#   array_of_values = []
+#   smallest_number = nil
+#   if hash = {} 
+#     return nil
+#   else 
+#     array_of_values = hash.collect do |k, v|
+#       v 
+#     end
+#   end
+#   smallest_number = array_of_values[0]
+#   array_of_values.each do |e|
+#     if v < smallest_number
+#       smallest_number = v
+#     end
+#   end
+#   smallest_number
+#   #hash.index(smallest_number)
+#   #sorted_array.first.key
+# end
